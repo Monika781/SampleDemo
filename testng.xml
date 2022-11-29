@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="url" value="http://65.2.125.98:9000/login"/>
+<parameter name="UserName" value="testing"/>
+<parameter name="PassWord" value="l*k8O80fUH%a"/>
+<parameter name="ValidUserName" value="testing"/>
+<parameter name="InValidPassWord" value="l*k8O8\UH%a"/>
+<parameter name="InValidUserName1" value="tting"/>
+<parameter name="ValidPassWord1" value="l*k8O80fUH%a"/>
+<parameter name="InValidUserName2" value="java"/>
+<parameter name="InValidPassWord2" value="java@123"/>
+  <test name="Test">
+  <groups>
+  <run>
+ <include name="Smoke"  />  
+  <include name="Sanity"  />  
+ 
+  
+  </run>
+  
+  
+  </groups>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
